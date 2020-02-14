@@ -5,12 +5,12 @@ font-family: 'Roboto', sans-serif;*/
 @font-face{
 
 font-family: SANTIO;
-src: url(Santio/TTF/Santio\ Black.ttf);
-src: url(Santio/TTF/Santio\ Inline.ttf);
-src: url(Santio/TTF/Santio\ Bold.ttf);
-src: url(Santio/TTF/Santio\ Boldline.ttf);
-src: url(Santio/TTF/Santio\ regular.ttf);
-src: url(Santio/TTF/Santio\ light.ttf);
+src: url(fonts/Santio\ Black.ttf);
+src: url(fonts/Santio\ Bold.ttf);
+src: url(fonts/Santio\ Boldline.ttf);
+src: url(fonts/Santio\ Inline.ttf);
+src: url(fonts/Santio\ light.ttf);
+src: url(fonts/Santio\ regular.ttf);
 }
 
 body{
