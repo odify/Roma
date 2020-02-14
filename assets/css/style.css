@@ -1,0 +1,318 @@
+
+/*font-family: 'Mr Dafoe', cursive;
+font-family: 'Roboto', sans-serif;*/
+
+@font-face{
+
+font-family: SANTIO;
+src: url(Santio/TTF/Santio\ Black.ttf);
+src: url(Santio/TTF/Santio\ Inline.ttf);
+src: url(Santio/TTF/Santio\ Bold.ttf);
+src: url(Santio/TTF/Santio\ Boldline.ttf);
+src: url(Santio/TTF/Santio\ regular.ttf);
+src: url(Santio/TTF/Santio\ light.ttf);
+}
+
+body{
+
+margin: 0;
+font-family: santio;
+
+}
+
+main{
+    width: 100%;
+    height: 680vh;
+    background-image: url(../img/cleo-topper.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main > a{
+ 
+    color:white;
+    font-size: 1.5em;
+    text-align: right;
+    display: block;
+    margin-right: 3%;
+    transition-property: transform;
+    
+}
+
+main > a > span:hover{
+
+     
+    color: #e7bc0e;
+    text-decoration: underline #e7bc0e;
+
+}
+main > a :hover{
+
+     
+    color: #e7bc0e;
+    text-decoration: underline #e7bc0e;
+  
+}
+
+main > a > img{
+
+    width: 19px;
+    height: 20px;
+}
+
+.section1{
+
+    font-size: 3em;
+    font-family: Santio;
+    color: #fff;
+    margin: 300px;
+
+}
+
+.section1 > h1{
+
+    font-weight: 200;
+    font-size: 2em;
+}
+.section1 > h2 > a{
+
+    font-family: 'Mr Dafoe';
+    color: #e7bc0e;
+    font-size: 0.7em;
+    text-decoration: none;
+
+}
+
+.section1 > h2 > a > span{
+    
+    position: absolute;
+    transform: rotate(90deg);
+    margin-left: 1%;
+}
+.section1 > h2 :hover { 
+    
+    color:#cb91b6;
+}
+.section2 {
+
+    height: 80vh; 
+    margin: 20% 25% 0% 10%;
+}
+
+.section2 > p {
+
+    font-family: SANTIO; 
+    font-size: 2.6em;
+    color:#6bc1a3;
+}
+.section2 > p > span { 
+    
+    background-color: rgb(41, 39, 42); 
+    color: white;}
+
+.section3 {
+
+    height: fit-content; 
+    margin: 20% 20% 0 20%;
+}
+
+.art3 { 
+    
+    height:fit-content; 
+    width: 100%; 
+    background-image: url(../img/stat-health-color.svg); 
+    background-position: left top;
+    background-size: 30%; 
+    background-repeat: no-repeat;
+}
+
+.art3 > h3{ 
+    
+    padding-top: 35%; 
+    font-family: SANTIO; 
+    color:#6bc1a3; 
+    font-size: 8em; 
+    margin-bottom: 0; 
+}
+
+.art3 > p{ 
+    
+    font-family: SANTIO; 
+    color:#6bc1a3;
+    font-size: 3em; 
+
+}
+
+.art3 > p > span{ 
+    
+    background-color: black; 
+    color: white; 
+
+} 
+
+.art4 { 
+    
+    height:fit-content; 
+    width: 100%;
+    font-size: 3em;
+    padding-top: 20%; 
+    padding-left: 10%; 
+    font-family: SANTIO; 
+    color:#7eb8e1 ;
+}
+
+.art4 > p > span{ 
+    background-color: rgb(35, 33, 36); 
+    color: white;
+
+} 
+
+.section4 { 
+
+    background-image: url(../img/kid.png) , url(../img/see.png); 
+    background-position: bottom; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:140vh; 
+} 
+
+.section5 { 
+
+
+    background-color: black; 
+    height: 150vh;
+} 
+
+.section5 > h2 {
+
+    padding-top: 30%; 
+    margin-top: 0; 
+    font-family: SANTIO; 
+    font-size: 6em; 
+    font-weight: bold; 
+    width: 50%; 
+    margin-left: 5%;
+    margin-bottom: 3%; 
+    color:#fff; 
+} 
+
+.section5 > a { 
+    
+    text-decoration: none; 
+    font-family: SANTIO;
+    font-size: 1.5em; 
+    padding: 2% 5%; 
+    margin: 5% 0 5% 7%; 
+    color: #fff; 
+    border: 2px solid white;
+
+
+}
+
+
+.section5 > a:hover { 
+
+    transition: 0.7s; 
+    box-shadow: 3px 3px 3px white;
+
+} 
+
+footer {
+
+    text-align: center;
+    background: #000;
+    padding-top: 15%; 
+    padding-bottom: 3%; 
+ 
+}
+
+footer > p{ 
+
+    margin: 0; 
+    color: #fff; 
+}
+
+footer > p > a { 
+
+    color:#6bc1a3;
+    text-decoration: none;
+ }
+
+ .art1 { 
+    
+    height: fit-content; 
+    width: 100%; 
+    background-image:url(../img/stat-workers-color.svg); 
+    background-position: left top; 
+    background-size: 30%; 
+    background-repeat: no-repeat;
+
+}
+
+.art1 > h3{ 
+    
+    padding-top: 35%; 
+    font-family: SANTIO; 
+    color: #e7bc0e; 
+    font-size: 8em; 
+    margin-bottom: 0;
+}
+
+.art1 > p{ 
+    font-family: SANTIO; 
+    color: #e7bc0e; 
+    font-size: 3em; 
+
+}
+
+.art1 > p > span{
+    
+    
+    color: white; 
+    background-color: rgb(35, 33, 36); 
+
+}
+
+.art2 { 
+
+    margin-top: 30%; 
+    height: 100vh; 
+    width: 100%;
+background-image: url(../img/stat-pay-color.svg); 
+background-position: left top; 
+background-size: 30%;
+background-repeat: no-repeat; 
+padding-bottom: 3%; 
+}
+
+
+.art2 > h3{ 
+
+    margin-top: 0;
+    font-family: SANTIO; 
+    color: #cb91b6;
+    font-size: 8em; 
+
+}
+
+.art2 > p{ 
+    
+    font-size: 3em;
+    padding-top: 35%; 
+    font-family: SANTIO; 
+    color: #cb91b6;   
+}
+
+.art2 > p > span{ 
+    
+    background-color: rgb(41, 39, 42); 
+    color: white; 
+
+}
+
+.donate > a:hover {
+
+    transition: 0.7s; 
+    box-shadow: 6px 6px 3px white;
+}
